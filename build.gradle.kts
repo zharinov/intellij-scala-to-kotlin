@@ -52,7 +52,7 @@ project(":") {
         compile(project(":converter-api"))
         compile(group = "net.jcazevedo", name = "moultingyaml_2.12", version = "0.4.0")
         compile(files("/home/ilya/code/Meerkat/core/target/scala-2.12/Meerkat-assembly-0.1.0.jar"))
-        compile(group = "guru.nidi", name = "graphviz-java", version = "0.7.0")
+        compile(group = "guru.nidi", name = "graphviz-java", version = "0.18.0")
 
         scalaCompiler(group = "org.scalamacros", name = "paradise_2.12.6", version = "2.1.1")
     }
