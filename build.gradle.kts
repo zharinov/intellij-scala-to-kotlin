@@ -46,7 +46,7 @@ project(":") {
     scalaCompiler.isTransitive = false
 
     dependencies {
-        compile("org.scala-lang:scala-library:2.12.6")
+        compile("org.scala-lang:scala-library:2.13.4")
 //        testCompile("org.scala-lang:scala-library:2.12.6")
         testCompile("junit:junit:4.12")
         compile(project(":converter-api"))
