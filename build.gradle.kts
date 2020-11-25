@@ -1,7 +1,7 @@
 plugins {
     idea
     kotlin("jvm") version "1.2.61"
-    id("org.jetbrains.intellij") version "0.3.6"
+    id("org.jetbrains.intellij") version "0.6.4"
     id("scala")
     id("com.diffplug.gradle.spotless") version "3.14.0"
 }
