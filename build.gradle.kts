@@ -3,7 +3,7 @@ plugins {
     kotlin("jvm") version "1.2.61"
     id("org.jetbrains.intellij") version "0.3.6"
     id("scala")
-    id("com.diffplug.gradle.spotless") version "3.14.0"
+    id("com.diffplug.gradle.spotless") version "3.30.0"
 }
 
 allprojects {
